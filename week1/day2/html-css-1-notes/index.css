@@ -1,0 +1,56 @@
+header:hover {
+    color: white;
+    background-color: blue;
+    font-size: 60px;
+    height: 15vh;
+}
+
+.greeting {
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#cool-picture {
+    width: 300px;
+}
+
+.movie-list {
+    float: right;
+    font-size: 20px;
+}
+
+body {
+    background-color: fuchsia;
+}
+
+div a {
+    color: white;
+    text-align: center;
+}
+
+.movie-title {
+    background-color: chartreuse;
+    color: chocolate;
+}
+
+#Interstellar:hover{
+    background-color: black;
+    color: white;
+}
+
+button {
+    border-width: 50px;
+    border-color: blue;
+}
+
+.box {
+    width: 80vw;
+    height: 80vh;
+    background-color: black;
+    border-radius: 50%;
+}
+.box > div {
+    height: 50%;
+    width: 50%;
+    background-color: salmon;
+}

@@ -1,0 +1,64 @@
+body{
+    background-color: white;
+}
+
+.my-box{
+    width: 100px;
+    height: 150px;
+    background-color: aquamarine;
+    margin:auto;
+}
+
+.my-box:hover {
+    background-color: darkorchid;
+    transition:.8s;
+    border-radius: 6px;
+}
+
+@media screen and (max-width: 500px){
+    .my-box {
+        position: absolute;
+        background-color: yellow;
+        animation-name: my-animation;
+        animation: duration 3s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+}
+
+@keyframes squid-rotate {
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotateX(360);
+    }
+}
+
+@keyframes my-animation{
+    0%{
+        top: 0;
+        left: 0;
+        background-color: red;
+    }
+    25%{
+        top: 0;
+        right: 0;
+        background-color: purple;
+    }
+    50%{
+        top: 150px;
+        right: 0;
+        background-color: cyan;
+    }
+    75%{
+        top: 150px;
+        left: 0;
+        background-color: yellow;
+    }
+    100%{
+        top: 0;
+        left: 0;
+        background-color: darkolivegreen;
+    }
+}
